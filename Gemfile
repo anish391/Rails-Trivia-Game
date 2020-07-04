@@ -9,7 +9,7 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
 gem 'puma', '~> 4.1'
 # Use Bootstrap and SCSS for stylesheets
 gem 'sass-rails', '>= 6'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '2.3.2.0'
 gem 'jquery-rails'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
@@ -21,7 +21,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-
+gem 'faker', '1.1.2'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
