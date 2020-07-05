@@ -2,6 +2,8 @@ class User < ApplicationRecord
 	before_save { self.email = email.downcase }
 	before_create :create_remember_token
 
+  has_many :questions, dependent: :destroy
+
   validates :name,  presence: true, length: { maximum: 50 }
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :email, presence: true, 
@@ -16,6 +18,10 @@ class User < ApplicationRecord
 
   def User.digest(token)
     Digest::SHA1.hexdigest(token.to_s)
+  end
+
+  def feed
+    Question.all.order("created_at DESC")
   end
 
   private
