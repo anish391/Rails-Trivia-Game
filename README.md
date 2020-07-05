@@ -1,3 +1,8 @@
 # Trivia Game Rails
 
-Demo Website: https://boiling-garden-59455.herokuapp.com/
+### Demo Website Details
+Demo Website: https://floating-ocean-01121.herokuapp.com/
+
+### Test credentials for logging in
+Username: johndoe@testmail.com
+Password: password
