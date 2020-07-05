@@ -17,3 +17,6 @@ require("channels")
 
 //= require jquery3
 //= require bootstrap
+
+
+require("packs/app-globals") 

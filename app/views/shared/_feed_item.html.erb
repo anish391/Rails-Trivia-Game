@@ -1,0 +1,11 @@
+<li id="<%= feed_item.id %>" style="display:block">
+  <%= link_to gravatar_for(feed_item.user), feed_item.user %>
+    <span class="user">
+      <%= link_to feed_item.user.name, feed_item.user %> Posted <%= time_ago_in_words(feed_item.created_at) %> ago.
+    </span>
+    <span class="content"><%= feed_item.question %></span>
+    <div class="answer-area container">
+    <%=text_field_tag "text-content-#{feed_item.id}", "", class: 'text-box'%>
+    <%= submit_tag 'Answer!', class: "answer-button btn btn-primary", :onclick => "alerts('text-content-#{feed_item.id}','#{feed_item.answer}')" %>
+  	</div>
+</li>
