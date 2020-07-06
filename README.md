@@ -6,11 +6,19 @@ Demo Website: https://floating-ocean-01121.herokuapp.com/
 Username: johndoe@testmail.com  
 Password: password
 
-## Installation
-#### Versions
+## Instructions
+- Sign up for a new account or sign in using above test credentials.
+- After logging you are redirected to the user's profile.
+- Go to home page which lets a user to post their own question & answer. Questions which are posted are displayed in the feed.
+- The Home page also contains a feed which allows users to answer questions others have posted.
+- The Community page displays a list of profiles.
+- The My Questions page displays all questions posted by the logged in user.
+- The Settings page displays a form to edit the user's name, password, email or display picture.
+
+## Versions
 - Ruby Version: 2.7.1  
 - Rail Version: 6.0.2.2  
-#### Instructions
+#### Installation
 Clone this repository. Then run the following commands:  
 ```
 bundle install
