@@ -1,4 +1,4 @@
-# Trivia Game Rails
+# Rails Trivia Game 
 
 ## Demo Website Details
 Demo Website: https://floating-ocean-01121.herokuapp.com/
