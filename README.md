@@ -1,5 +1,5 @@
 # Rails Trivia Game 
-
+A Ruby on Rails based web app with a user-feed style for viewing and answering trivia questions.
 ## Demo Website Details
 Demo Website: https://floating-ocean-01121.herokuapp.com/
 #### Test credentials for logging in:
